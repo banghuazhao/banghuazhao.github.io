@@ -1,0 +1,15 @@
+.fancy-button, fancy-button * {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  display:block;
+}
+
+.fancy-buttonContainer {
+  display: inline-block;
+}
+
+.fancy-buttonOverlayContainer, .fancy-buttonOverlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
